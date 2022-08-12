@@ -4,6 +4,7 @@ import 'package:MP24/tabs/HomeTab.dart';
 import 'package:MP24/tabs/ScheduleTab.dart';
 import 'package:MP24/tabs/RiwayatTab.dart';
 import 'package:MP24/tabs/KeluhanTab.dart';
+import 'package:MP24/tabs/InfoTab.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -40,6 +41,12 @@ class _HomeState extends State<Home> {
     });
   }
 
+  void goToInfo() {
+    setState(() {
+      _selectedIndex = 4;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     List<Widget> screens = [
@@ -50,6 +57,7 @@ class _HomeState extends State<Home> {
       ScheduleTab(),
       RiwayatTab(),
       KeluhanTab(),
+      InfoTab(),
     ];
 
     return Scaffold(
