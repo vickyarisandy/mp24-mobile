@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:MP24/styles/colors.dart';
 import 'package:MP24/styles/styles.dart';
 
-class RiwayatTab extends StatefulWidget {
-  const RiwayatTab({Key? key}) : super(key: key);
+class KeluhanTab extends StatefulWidget {
+  const KeluhanTab({Key? key}) : super(key: key);
 
   @override
-  State<RiwayatTab> createState() => _RiwayatTabState();
+  State<KeluhanTab> createState() => _KeluhanTabState();
 }
 
-class _RiwayatTabState extends State<RiwayatTab> {
+class _KeluhanTabState extends State<KeluhanTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +17,7 @@ class _RiwayatTabState extends State<RiwayatTab> {
         slivers: [
           SliverAppBar(
             pinned: true,
-            title: Text('Detail Riwayat'),
+            title: Text('Formulir'),
             backgroundColor: Color.fromARGB(255, 11, 117, 29),
             expandedHeight: 70,
           )

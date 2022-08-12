@@ -13,7 +13,7 @@ class Home extends StatefulWidget {
 
 List<Map> navigationBarItems = [
   {'icon': Icons.local_hospital, 'index': 0},
-  {'icon': Icons.calendar_today, 'index': 1},
+  {'icon': Icons.calendar_today, 'title': Text('add'), 'index': 1},
   {'icon': Icons.history, 'index': 2},
   {'icon': Icons.inbox, 'index': 3},
   {'icon': Icons.info, 'index': 4},
