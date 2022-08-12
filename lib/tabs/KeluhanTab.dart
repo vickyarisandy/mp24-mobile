@@ -18,7 +18,7 @@ class _KeluhanTabState extends State<KeluhanTab> {
           SliverAppBar(
             pinned: true,
             title: Text('Formulir'),
-            backgroundColor: Color.fromARGB(255, 11, 117, 29),
+            backgroundColor: Color.fromARGB(255, 2, 35, 66),
             expandedHeight: 70,
           )
         ],
